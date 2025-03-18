@@ -17,8 +17,10 @@ public class Dice {
     /**
      * Rolls two six-sided dice.
      * Updates the dice values and checks if it's a double.
+     *
+     * @return
      */
-    public void roll() {
+    public int roll() {
         die1 = random.nextInt(6) + 1; // Generates a number between 1 and 6
         die2 = random.nextInt(6) + 1;
         isDouble = die1 == die2;
@@ -27,6 +29,7 @@ public class Dice {
         } else {
             totalDoubles = 0;
         }
+        return getTotal();
     }
 
     /**

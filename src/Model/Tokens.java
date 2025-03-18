@@ -1,5 +1,6 @@
 package Model;
 
+
 /**
  * Enum class to represent the different types of tokens in the game
  */

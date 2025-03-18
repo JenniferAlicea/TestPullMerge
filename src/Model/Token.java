@@ -13,6 +13,7 @@ public class Token {
         this.boardPosition = 0;
     }
 
+
     // Method to assign a token to a player
     public void assignToPlayer(Player player) {
         this.owner = player;
@@ -37,6 +38,5 @@ public class Token {
     public Tokens getType() {
         return type;
     }
-
     
 }
